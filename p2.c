@@ -24,13 +24,10 @@ void menu(int id) {
 
 void setup() {
     gluOrtho2D(-500, 500, -500, 500);
-    glClearColor(0, 0, 0, 0);
 }
 
 int main(int a, char **b) {
     glutInit(&a, b);
-    glutInitDisplayMode(GLUT_RGB | GLUT_SINGLE);
-    glutInitWindowSize(500, 500);
     glutCreateWindow("2D Transform");
     setup();
     glutDisplayFunc(draw);
