@@ -41,7 +41,6 @@ void init() {
 
 int main(int argc, char **argv) {
     glutInit(&argc, argv);
-    glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB | GLUT_DEPTH);
     glutCreateWindow("3D Cube with Transformations");
     init();
     glutDisplayFunc(display);
