@@ -34,9 +34,7 @@ void key(unsigned char k, int x, int y) {
 }
 
 void init() {
-    glClearColor(0, 0, 0, 0);
     glOrtho(-500, 500, -500, 500, -500, 2000);
-    glEnable(GL_DEPTH_TEST);
 }
 
 int main(int argc, char **argv) {
